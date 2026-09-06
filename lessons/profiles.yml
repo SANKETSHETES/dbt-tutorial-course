@@ -1,0 +1,13 @@
+lessons:
+  outputs:
+    dev:
+      dataset: dbt_sshete
+      job_execution_timeout_seconds: 300
+      job_retries: 1
+      location: US
+      method: oauth
+      priority: interactive
+      project: project-d73bd771-a546-44d9-a5e
+      threads: 60
+      type: bigquery
+  target: dev
