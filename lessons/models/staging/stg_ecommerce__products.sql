@@ -1,3 +1,5 @@
+--{{ config (tags =['myproduct'])}}
+
 WITH source AS (
 	SELECT *
 
